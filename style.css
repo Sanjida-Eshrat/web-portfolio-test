@@ -3,6 +3,36 @@ body {
     font-family: 'Poppins','sana-serif';
 }
 
+
+/*nav part*/
+.nav-section{
+  /*  margin-bottom: 50px;*/
+  
+}
+nav ul{
+    float: right;
+    margin-bottom: 50px;
+   
+}
+nav ul li{
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 4em;
+    
+    
+}
+nav ul li a{
+    text-decoration:none ;
+    color: black;
+}
+nav ul li:hover{
+    background-color: orange;
+    
+}
+
+
+
 h1{
     font-size: 50px;
 }
@@ -42,6 +72,7 @@ section{
     background-image: url('images/exp-bg.png');
     background-repeat: no-repeat;
     background-position: left;
+
 }
 .single-experience{
     height: 80%;
@@ -59,7 +90,87 @@ section{
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
 }
-.experience-section h1{
-    
+.working-project-section{
+    padding-top:30px ;
+    background-color:#f6f6f6;
+   margin-top: 18px;
+   height: 600px;
+   padding-bottom: 20px;
+}
+.working-project-section h1{
+    text-align: center;
+    margin-top: 70px;
     
 }
+.section-field{
+    background-color: white;
+    float: left;
+    width: 30%;
+    margin-left: 32px;
+    border-radius: 12px;
+}
+.upper img{
+    padding-top: 6px;
+    margin-left: 10px;
+    height: 70%;
+    width: 95%;
+}
+.lower{
+    margin-left: 10px;
+    height: 30%;
+    width: 95%;
+}
+.work-section{
+    background-color: white;
+    padding-top: 70px;
+    padding-left: 200px;
+
+}
+.upper-sec{
+   
+    background-color: cornflowerblue;
+    color:white;
+    height: 150px;
+    width: 68%;
+    float: left;
+    border-radius: 8px;
+    
+}
+.partition{
+    float: left;
+}
+#left{
+    width: 65%;
+    padding-left: 35px;
+}
+#right{
+    padding-top: 67px;
+   
+    width: 30%;
+}
+.lower-sec{
+    text-align: center;
+    height:100px ;
+    width: 68%;
+    margin-top: 30px;
+}
+.lower-sec p{
+    opacity: .6;
+    
+}
+.lower-sec ul{
+    float: left;
+    margin-left: 246px;
+}
+.lower-sec ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.lower-sec ul li img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
