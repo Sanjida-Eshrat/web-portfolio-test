@@ -54,6 +54,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
+    /*display: flex;*/
     height: 500px;
 }
 .link-button{
@@ -74,11 +75,14 @@ section{
     background-position: left;
 
 }
+.experience-section h1{
+    text-align: left;
+}
 .single-experience{
     height: 80%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 4px;
-    background-color: white;
+  /*  background-color: white;*/
 }
 #full-stack{
     border-left: 8px solid;
@@ -88,7 +92,7 @@ section{
 #baby-stack{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,blue,cyan);
-    border-image-slice: 1;
+    border-image-slice: 1; /*to set border-image to the border corner */
 }
 .working-project-section{
     padding-top:30px ;
